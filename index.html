@@ -6,10 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <script src="js/main.js"></script>
+
 </head>
 <body>
     <h1>Javascript</h1>
-    <p>Test first javascript</p>
+    <p id="test">Test first javascript</p>
+    <script>
+        document.getElementById("test").innerHTML = firstFunction();
+    </script>
     <button type="button" onclick="testVariable">Click</button>
 </body>
 </html>
