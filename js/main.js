@@ -5,20 +5,41 @@ function firstFunction( wid, hei){
     var area = width * height;
     return area;
 }
-function loopMethod() {
-    var person = {firstname:"Phiraphon",
+
+var person = {firstname:"Phiraphon",
              lastname:"Tunjaya", 
              age:40};
-    var list = ["Volvo", "Benz", "Toyota", "Honda", "Jeep"];
-    var i = 0;
-    var text = "";
-    do{
-        text += list[i] + "<br>";
-        i++;
-    }
-    while( i<list.length);
-    document.getElementById('test').innerHTML = text;
+var list = ["Volvo", "Benz", "Toyota", "Honda", "Jeep"];
+
+var i;
+// do{
+//     console.log(i);
+//     i++;
+// }
+// while(i < 0);
+// 
+
+for(i in person){
+    console.log(person[i]);
 }
+
+console.log("Success");
+
+
+ 
+
+
+// function loopMethod() {
+//     
+//     var i = 0;
+//     var text = "";
+//     do{
+//         text += list[i] + "<br>";
+//         i++;
+//     }
+//     while( i<list.length);
+//     document.getElementById('test').innerHTML = text;
+// }
 
 
 // var grade;
